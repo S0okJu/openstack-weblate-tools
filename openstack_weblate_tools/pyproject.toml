@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openstack_weblate_tools"
+version = "0.1.0"
+description = "OpenStack Weblate Migration Tools"
+authors = [
+    { name = "OpenStack Community", email = "openstack-discuss@lists.openstack.org" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["requests", "python-dotenv", "pydantic"]
+
+[project.scripts]
+openstack-weblate-cli = "openstack_weblate_tools.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["openstack_weblate_tools*"]

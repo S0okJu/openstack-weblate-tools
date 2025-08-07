@@ -1,1 +1,1 @@
-# openstack-weblate-tools
+# openstack-weblate-client

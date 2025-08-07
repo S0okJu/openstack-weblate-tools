@@ -1,0 +1,10 @@
+enmerkar
+Django
+sphinx
+openstackdocstheme
+reno
+requests
+python-dotenv
+pydantic
+Babel
+PyYAML
